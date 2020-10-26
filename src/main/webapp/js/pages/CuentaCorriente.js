@@ -7,7 +7,7 @@ let totalFlywire = 0;
 let cadena = '';
 let agregado = '';
 
-const urlRedireccion = "http://siteslcb.eastus.cloudapp.azure.com:8080/pagoEnLinea/pages/cuentaCorrienteRedireccion.jsp";
+const urlRedireccion = "http://siteslcb.eastus.cloudapp.azure.com:8080/pagoEnLineaLCBP/pages/cuentaCorrienteRedireccion.jsp";
 
 var config = {
     // Set your environment (demo, production)
@@ -33,7 +33,7 @@ var config = {
     // Define custom attributes (based on your portal settings)
     amount: 0,
     // Enable payment status notification callbacks
-    callback_url: "http://siteslcb.eastus.cloudapp.azure.com:8080/centralFlywire/NotificacionServlet",
+    callback_url: "http://siteslcb.eastus.cloudapp.azure.com:8080/listenerFlywire/NotificacionServlet",
     //callback_url: "http://localhost:8080/gestionPagoenLinea/NotificationServlet",
     callback_id: "",
     // Set the return url to redirect the user on process completion
