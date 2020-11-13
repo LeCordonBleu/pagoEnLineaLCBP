@@ -33,7 +33,7 @@ var config = {
     // Define custom attributes (based on your portal settings)
     amount: 0,
     // Enable payment status notification callbacks
-    callback_url: "http://siteslcb.eastus.cloudapp.azure.com:8080/listenerFlywire/NotificacionServlet",
+    callback_url: "http://siteslcb.eastus.cloudapp.azure.com:8080/centralFlywire/NotificacionServlet",
     //callback_url: "http://localhost:8080/gestionPagoenLinea/NotificationServlet",
     callback_id: "",
     // Set the return url to redirect the user on process completion
